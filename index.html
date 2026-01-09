@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Agency Name] | Excellence in Insurance & Wealth Protection [Your Tagline]</title>
+    <meta name="description"
+        content="[Your Agency Name]. Specialized in building generational wealth and protecting legacies through custom life insurance strategies.">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- GSAP for Premium Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header glass sticky">
+        <nav class="container nav-wrapper">
+            <a href="index.html" class="brand-lockup">
+                <div class="brand-icon">
+                    <i data-lucide="shield-check" style="width: 24px; height: 24px;"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-line1">[Your Agency Name]</span>
+                    <span class="brand-line2">[Your Tagline]</span>
+                </div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="has-dropdown">
+                    <a href="#services">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="services/life-insurance.html">Life Insurance Overview</a></li>
+                        <li><a href="services/term-life-insurance.html">Term Life</a></li>
+                        <li><a href="services/whole-life-insurance.html">Whole Life</a></li>
+                        <li><a href="services/indexed-universal-life.html">Indexed Universal Life (IUL)</a></li>
+                        <li><a href="services/infinite-banking.html">Infinite Banking</a></li>
+                        <li><a href="services/annuities.html">Annuities</a></li>
+                        <li><a href="services/estate-planning.html">Trusts & Estate Planning</a></li>
+                        <li><a href="services/health-insurance.html">Health Insurance</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="header-actions">
+                <div class="header-meta">
+                    <a href="tel:[YOUR_PHONE]" class="header-phone">(XXX) XXX-XXXX</a>
+                    <a href="mailto:[YOUR_EMAIL]" class="header-email">[YOUR_EMAIL]</a>
+                </div>
+                <button class="btn btn-primary voice-bot-trigger">Book Consultation</button>
+            </div>
+
+            <div class="mobile-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">Trusted Advisor Portfolio</span>
+                    <h1>Building Your Legacy, <span class="text-accent">Protecting</span> Your Future.</h1>
+                    <p class="lead">[Your Agency Name] specializes in advanced wealth protection
+                        strategies and life
+                        insurance solutions designed to safeguard your family for generations.</p>
+
+                    <div class="hero-actions">
+                        <a href="#consultation" class="btn btn-primary">Schedule Your Strategy Session</a>
+                        <a href="tel:[YOUR_PHONE]" class="btn btn-outline">Call Our Specialists</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Expertise</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">States Licensed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1000+</span>
+                            <span class="stat-label">Families Served</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper hero-small">
+                    <div class="hero-image-placeholder">
+                        <img src="images/hero/hero_woman.jpg" alt="Strategic Wealth Planning" class="main-headshot">
+                        <div class="floating-badge">
+                            <i data-lucide="award"></i>
+                            <span>Top Rated Agency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Indicators / Logos -->
+        <section class="trust-strip">
+            <div class="container flex-center">
+                <span class="trust-label">Carrying Top-Tier Providers:</span>
+                <div class="logo-grid">
+                    <div class="carrier-logo"><i data-lucide="shield"></i> Carrier A</div>
+                    <div class="carrier-logo"><i data-lucide="building"></i> Carrier B</div>
+                    <div class="carrier-logo"><i data-lucide="globe"></i> Carrier C</div>
+                    <div class="carrier-logo"><i data-lucide="briefcase"></i> Carrier D</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "About Us" Intro Section -->
+        <section class="about-intro bg-light">
+            <div class="container grid-2">
+                <div class="about-image agent-small">
+                    <img src="images/agent/headshot.jpg" alt="[Your Agency Name] - Principal" class="rounded shadow">
+                </div>
+                <div class="about-copy">
+                    <h2 class="mb-2">Meet Your Trusted Advisor</h2>
+                    <p>Our mission is simple: To provide families and business owners with the clarity and tools they
+                        need to build unbreakable financial foundations. As part of [Your Agency Name], we build
+                        lifelong
+                        partnerships based on
+                        trust and results.</p>
+                    <p>Whether you're exploring the Rockefeller Method for estate planning or looking for stable Indexed
+                        Universal Life options, our approach is educational, transparent, and always client-first.</p>
+                    <a href="about.html" class="btn btn-outline mt-2">Read Our Full Story</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rockefeller Method Featured Section -->
+        <section class="featured-strategy bg-dark text-white">
+            <div class="container grid-2 align-center">
+                <div class="featured-copy">
+                    <span class="badge mb-2">Signature Strategy</span>
+                    <h2 class="text-white">Secure Your <span class="text-accent">Children's Children</span></h2>
+                    <p>Standard insurance protects your family. The **Rockefeller Method** protects your legacy. Learn
+                        how to implement the advanced wealth-building strategy used by America's most enduring
+                        dynasties.</p>
+                    <ul class="check-list mb-4">
+                        <li><i data-lucide="check-circle" class="icon-small"></i> Build a Private Family Bank</li>
+                        <li><i data-lucide="check-circle" class="icon-small"></i> Tax-Free Generational Wealth
+                            Transference</li>
+                        <li><i data-lucide="check-circle" class="icon-small"></i> Asset Protection & Legacy Planning
+                        </li>
+                    </ul>
+                    <a href="services/estate-planning.html" class="btn btn-primary">Master the Rockefeller Method</a>
+                </div>
+                <div class="featured-image pt-4 family-small">
+                    <img src="images/services/family.jpg" alt="Generational Legacy" class="rounded shadow hover-lift">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview Section -->
+        <section id="services" class="services-preview">
+            <div class="container">
+                <div class="section-header text-center mb-4">
+                    <h2>Business Insurance Strategies</h2>
+                    <p>Protect your business, retain key talent, and plan for seamless transitions with sophisticated
+                        insurance solutions designed for business owners and executives.</p>
+                </div>
+
+                <div class="grid-4" style="gap: 30px;">
+                    <!-- Strategy Card 1 -->
+                    <div class="service-card glass fade-in">
+                        <div class="card-icon"><i data-lucide="user-check"></i></div>
+                        <h3>Key Person Insurance</h3>
+                        <p>
+                            Protect your business from the financial impact of losing a critical employee or owner.
+                            Term life provides affordable, high death benefit coverage for the risk period while they're
+                            actively working.
+                        </p>
+                        <a href="contact.html?service=KeyPerson" class="btn btn-outline mt-2">Learn More →</a>
+                    </div>
+
+                    <!-- Strategy Card 2 -->
+                    <div class="service-card glass fade-in">
+                        <div class="card-icon"><i data-lucide="handshake"></i></div>
+                        <h3>Buy-Sell Agreement Funding</h3>
+                        <p>
+                            Ensure smooth business transitions when partners retire or pass away. Permanent life
+                            insurance builds cash value you can use to buy out partners at retirement, not just death.
+                        </p>
+                        <a href="contact.html?service=BuySell" class="btn btn-outline mt-2">Learn More →</a>
+                    </div>
+
+                    <!-- Strategy Card 3 -->
+                    <div class="service-card glass fade-in">
+                        <div class="card-icon"><i data-lucide="award"></i></div>
+                        <h3>Executive Bonus Plans</h3>
+                        <p>
+                            Attract and retain top talent by providing permanent life insurance as a retirement asset
+                            plus protection. Builds cash value the employee owns while offering tax advantages to your
+                            business.
+                        </p>
+                        <a href="contact.html?service=ExecutiveBonus" class="btn btn-outline mt-2">Learn More →</a>
+                    </div>
+
+                    <!-- Strategy Card 4 -->
+                    <div class="service-card glass fade-in">
+                        <div class="card-icon"><i data-lucide="split"></i></div>
+                        <h3>Split-Dollar Arrangements</h3>
+                        <p>
+                            Share premium costs and benefits between employer and employee. The cash value growth
+                            eventually pays back the business while providing valuable coverage to key executives.
+                        </p>
+                        <a href="contact.html?service=SplitDollar" class="btn btn-outline mt-2">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <h3>Ready to Protect Your Business?</h3>
+                    <p>These business insurance strategies require careful planning and customization. Let's discuss
+                        which solutions best protect your company and key people.</p>
+                    <a href="contact.html" class="btn btn-primary mt-2">Schedule Your Business Strategy Session</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Preview -->
+        <section class="testimonials-preview bg-light">
+            <div class="container text-center">
+                <h2 class="mb-4">Trusted by Families Nationwide</h2>
+                <div class="grid-3">
+                    <div class="testimonial-card glass p-4 rounded">
+                        <img src="images/testimonials/client-1.jpg" alt="Client" class="rounded-circle mb-2"
+                            style="width: 80px;">
+                        <p>"The Rockefeller Method changed how we view our family's future."</p>
+                        <strong>- Sarah J.</strong>
+                    </div>
+                    <div class="testimonial-card glass p-4 rounded">
+                        <img src="images/testimonials/client-2.jpg" alt="Client" class="rounded-circle mb-2"
+                            style="width: 80px;">
+                        <p>"A professional team that truly cares about long-term results."</p>
+                        <strong>- Michael T.</strong>
+                    </div>
+                    <div class="testimonial-card glass p-4 rounded">
+                        <img src="images/testimonials/client-3.jpg" alt="Client" class="rounded-circle mb-2"
+                            style="width: 80px;">
+                        <p>"Transparent, educational, and highly recommended."</p>
+                        <strong>- Emily R.</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-lockup mb-2">
+                        <div class="brand-icon"><i data-lucide="shield-check"></i></div>
+                        <div class="brand-text">
+                            <span class="brand-line1" style="color: white;">[Your Agency Name]</span>
+                            <span class="brand-line2">[Your Tagline]</span>
+                        </div>
+                    </div>
+                    <p>Securing legacies for children's children through innovative insurance strategies.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services/life-insurance.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Connect</h4>
+                    <p><i data-lucide="phone" class="icon-small"></i> (XXX) XXX-XXXX</p>
+                    <p><i data-lucide="mail" class="icon-small"></i> [YOUR_EMAIL]</p>
+                    <div class="social-links mt-2">
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center mt-4">
+                <p>&copy; 2026 [Your Agency Name]. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="privacy-policy.html">Privacy Policy</a> |
+                    <a href="terms.html">Terms</a> |
+                    <a href="disclaimers.html">Disclaimers</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+
+</html>

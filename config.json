@@ -1,0 +1,42 @@
+{
+    "agent": {
+        "name": "[Agent Name]",
+        "firstName": "[First Name]",
+        "lastName": "[Last Name]",
+        "title": "[Your Title - e.g., CFP, CLU]",
+        "phone": "(XXX) XXX-XXXX",
+        "phoneRaw": "XXXXXXXXXX",
+        "email": "agent@youragency.com",
+        "linkedIn": "https://linkedin.com/in/youragent",
+        "photo": "/images/agent/placeholder-headshot.jpg",
+        "photoOffice": "/images/agent/placeholder-office.jpg"
+    },
+    "agency": {
+        "name": "[Your Agency Name]",
+        "tagline": "[Your Unique Value Proposition]",
+        "address": "[Your Address]",
+        "city": "[Your City]",
+        "state": "[ST]",
+        "zip": "[XXXXX]",
+        "yearFounded": "[YYYY]",
+        "yearsInBusiness": "[X]",
+        "statesLicensed": "[X]",
+        "familiesServed": "[XXX]"
+    },
+    "branding": {
+        "primaryColor": "#1e40af",
+        "accentColor": "#f59e0b",
+        "trustColor": "#2D5A27",
+        "logo": "/images/logos/agency-logo.png"
+    },
+    "integrations": {
+        "goHighLevelWebhook": "[YOUR_GHL_WEBHOOK_URL]",
+        "calendlyUrl": "[YOUR_CALENDLY_URL]",
+        "googleAnalyticsId": "[YOUR_GA_ID]"
+    },
+    "meta": {
+        "siteTitle": "[Your Agency Name] | Life Insurance & Wealth Protection",
+        "siteDescription": "Expert life insurance and wealth protection strategies from [Agent Name]. Licensed in [X] states, serving families nationwide.",
+        "keywords": "life insurance, wealth protection, estate planning, [Your City]"
+    }
+}

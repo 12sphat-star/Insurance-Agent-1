@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact [Your Agency Name] | Schedule Your Strategy Session</title>
+    <meta name="description"
+        content="Get in touch with [Your Agency Name] for professional life insurance and wealth protection advice. Schedule a free consultation today.">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+        <header class="header glass sticky">
+        <nav class="container nav-wrapper">
+            <a href="index.html" class="brand-lockup">
+                <div class="brand-icon"><i data-lucide="shield-check"></i></div>
+                <div class="brand-text">
+                    <span class="brand-line1">[Your Agency Name]</span>
+                    <span class="brand-line2">[Your Tagline]</span>
+                </div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="has-dropdown">
+                    <a href="#services">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="services/life-insurance.html">Life Insurance Overview</a></li>
+                        <li><a href="services/term-life-insurance.html">Term Life</a></li>
+                        <li><a href="services/whole-life-insurance.html">Whole Life</a></li>
+                        <li><a href="services/indexed-universal-life.html">Indexed Universal Life (IUL)</a></li>
+                        <li><a href="services/infinite-banking.html">Infinite Banking</a></li>
+                        <li><a href="services/annuities.html">Annuities</a></li>
+                        <li><a href="services/estate-planning.html">Trusts & Estate Planning</a></li>
+                        <li><a href="services/health-insurance.html">Health Insurance</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="header-actions">
+                <div class="header-meta">
+                    <a href="tel:[YOUR_PHONE]" class="header-phone">(XXX) XXX-XXXX</a>
+                    <a href="mailto:[YOUR_EMAIL]" class="header-email">[YOUR_EMAIL]</a>
+                </div>
+                <button class="btn btn-primary voice-bot-trigger">Book Consultation</button>
+            </div>
+
+            <div class="mobile-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container text-center">
+                <h1>Let's Start a <span class="text-accent">Conversation</span></h1>
+                <p>Personalized guidance is just a message or a call away.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="grid-2">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper glass p-4 rounded">
+                        <h2 class="mb-2">Request a Strategy Session</h2>
+                        <p class="mb-4">Fill out the form below and Keith or his personal assistant will reach out
+                            within 24 hours.</p>
+
+                        <form id="lead-form" class="ghl-form">
+                            <div class="form-group mb-2">
+                                <label for="full_name">Full Name</label>
+                                <input type="text" id="full_name" name="full_name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(555) 000-0000">
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="service">Service of Interest</label>
+                                <select id="service" name="service">
+                                    <option value="life-insurance">Life Insurance (Term/Whole)</option>
+                                    <option value="iul">Indexed Universal Life (IUL)</option>
+                                    <option value="infinite-banking">Infinite Banking</option>
+                                    <option value="estate-planning">Estate Planning</option>
+                                    <option value="other">Other Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="message">How can Keith help you?</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Briefly describe your goals..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send My Request</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Details & Booking Preview -->
+                    <div class="contact-info">
+                        <div class="info-card mb-4">
+                            <h3>Direct Contact</h3>
+                            <div class="contact-method mt-2">
+                                <p><strong>Phone:</strong> <a href="tel:+18005550199"
+                                        class="phone-link">(XXX) XXX-XXXX</a></p>
+                                <p><strong>Email:</strong> <a
+                                        href="mailto:keith@keithrobertson.com">keith@keithrobertson.com</a></p>
+                            </div>
+                        </div>
+
+                        <div id="booking" class="booking-preview glass p-4 rounded bg-dark text-white">
+                            <h3 class="text-white">Book Instantly</h3>
+                            <p>Prefer to skip the form? Select a time that works for you on Keith's private calendar.
+                            </p>
+                            <a href="#" class="btn btn-trust mt-2">View Availability</a>
+                            <div class="mt-4 p-2 border-top">
+                                <p class="small italic">"I value your time as much as my own. My goal is to provide
+                                    maximum value in our first 15 minutes." — Keith</p>
+                            </div>
+                        </div>
+
+                        <div class="social-authority mt-4">
+                            <p><strong>Connect with Keith:</strong></p>
+                            <div class="flex-start mt-1">
+                                <a href="#" class="btn btn-outline small">LinkedIn</a>
+                                <a href="#" class="btn btn-outline small">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+
+</html>
