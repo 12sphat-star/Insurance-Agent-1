@@ -801,5 +801,31 @@ textarea:focus {
     width: 100%;
     height: auto;
 }
+.about-image {
+  overflow: visible;
+}
 /* Import Chat Widget Styles */
 @import url('chat-widget.css');
+/* --- Agent Headshot Fix --- */
+
+.about-image {
+  display: block;
+  overflow: visible;
+}
+
+.agent-headshot {
+  max-width: 260px;
+  width: 115%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+/* --- Service Detail Image Sizing --- */
+
+.detail-visual img {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
