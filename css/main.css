@@ -822,10 +822,27 @@ textarea:focus {
 }
 /* --- Service Detail Image Sizing --- */
 
-.detail-visual img {
+.service-image {
   max-width: 420px;
   width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 992px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
 }
