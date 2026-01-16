@@ -863,3 +863,26 @@ textarea:focus {
     grid-template-columns: 1fr !important;
   }
 }
+.intro-section {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.intro-visual {
+  max-width: 900px;
+}
+
+.intro-visual img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile fallback */
+@media (max-width: 768px) {
+  .intro-section {
+    grid-template-columns: 1fr;
+  }
+}
