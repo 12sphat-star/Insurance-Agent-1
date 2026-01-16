@@ -814,7 +814,7 @@ textarea:focus {
 }
 
 .agent-headshot {
-  max-width: 260px;
+  max-width: 360px;
   width: 115%;
   height: auto;
   border-radius: 12px;
@@ -844,5 +844,22 @@ textarea:focus {
 @media (max-width: 600px) {
   .grid-4 {
     grid-template-columns: 1fr;
+  }
+}
+/* === FINAL OVERRIDE: Services Preview = 4 cards === */
+.services-preview .grid-3 {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 30px !important;
+}
+@media (max-width: 1024px) {
+  .services-preview .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .services-preview .grid-3 {
+    grid-template-columns: 1fr !important;
   }
 }
